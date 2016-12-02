@@ -25,3 +25,17 @@ td.stats li:nth-child(odd) {
 td.authorbox div.barpad {
     padding: 0;
 }
+
+/* hide Site Notices header */
+
+div.forums > div.columns div.barpad:nth-of-type(2) {
+    display: none;
+}
+
+div.forums > div.columns div.barpad img.sprite {
+    display: none ;
+}
+
+div.notice img:first-of-type {
+    display: none;
+}
