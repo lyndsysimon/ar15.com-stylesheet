@@ -26,6 +26,43 @@ td.authorbox div.barpad {
     padding: 0;
 }
 
+/* authorbox: shrink well */
+
+td.authorbox div.userinfo li:first-of-type {
+    display: none;
+}
+
+td.authorbox div.userinfo ul {
+    display: block;
+    float: none;
+}
+
+td.authorbox div.userinfo li {
+    display: inline-block;
+}
+
+td.authorbox div.userinfo li:nth-of-type(even) {
+    float: right;
+    clear: right;
+}
+
+td.authorbox div.userinfo li:nth-of-type(odd) {
+    float: left;
+    clear: left;
+}
+
+/* move member level badge */
+
+td.authorbox > table.author {
+    position: relative;
+}
+
+td.authorbox div.userinfo > img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 /* hide Site Notices header */
 
 div.forums > div.columns div.barpad:nth-of-type(2) {
