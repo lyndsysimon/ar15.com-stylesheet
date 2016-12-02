@@ -1,0 +1,27 @@
+/* reduce padding for posts */
+
+td.body {
+    padding: 1rem;
+}
+
+/* authorbox: reflow user stats */
+
+td.stats li {
+    display: inline-block;
+}
+
+td.stats li:nth-child(even) {
+    float: left;
+    clear: left;
+}
+
+td.stats li:nth-child(odd) {
+    float: right;
+    clear: right;
+}
+
+/* authorbox: shrink badge area */
+
+td.authorbox div.barpad {
+    padding: 0;
+}
